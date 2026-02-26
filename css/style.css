@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #0b0f1a;
     margin: 0;
@@ -8,65 +10,101 @@ body{
 
 nav{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
-nav a{
-    font-size: 14px;
+a{
+    font-size: 0.875rem;
     color: #c6a85b;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
 }
 
-nav a:hover{
+a:hover{
     text-decoration: underline;
     color: #9aa0a6;
 }
 
 h1{
-    font-family: 'Cormorant, Garamond', serif;
+    font-family: 'Cormorant Garamond';
     font-size: 64px;
     color: #c6a85b;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 5rem;
     text-transform: uppercase;
 }
 
 h2{
-    font-family: 'Cormorant, Garamond', serif;
-    font-size: 36px;
+    font-family: 'Cormorant Garamond';
+    font-size: 2.25rem;
     color: #c6a85b;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 6.25rem;
+    margin-bottom: 1.25rem;
     letter-spacing: 1px;
 }
 
 h3{
-    font-family: 'Montsserat', sans-serif;
-    font-size: 14px;
+    font-family: 'Montsserat';
+    font-size: 0.875rem;
     color: #9aa0a6;
     text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 2.5rem;
+    margin-bottom: 0.625rem;
     letter-spacing: 2px;
 }
 
-p{
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
 blockquote{
-    margin-top: 70px;
-    margin-bottom:40px;
+    margin-top: 4.375rem;
+    margin-bottom: 4.375rem;
 }
 
 blockquote p{
-    font-size: 24px;
     color: #c6a85b;
-    font-style: italic;
     text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+ul{
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+li {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+}
+
+.subtitle{
+    font-size: 1.25rem;
+    color: #9aa0a6;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+#hero{
+    text-align: center;
+    padding: 3.75rem;
+}
+
+img{ 
+    width:100%
+}
+
+section{
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+}
+
+footer{
+    font-size: 0.875rem;
+    text-align: center;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    margin-top: 6.25rem;
+    background-color: #000;
 }
